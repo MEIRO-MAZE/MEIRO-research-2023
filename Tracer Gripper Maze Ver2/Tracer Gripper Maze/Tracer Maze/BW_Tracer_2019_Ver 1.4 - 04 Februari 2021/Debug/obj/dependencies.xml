@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Data Ivan\Elektro\Robotika\BW_Main_Code\cmsis_boot /I..\..\..\..\..\Data Ivan /I..\..\..\..\..\Data Ivan\Elektro\Robotika\BW_Main_Code\Rangefinder_SYSTEM_V1.2 /I..\..\..\..\..\Data Ivan\Elektro /I..\..\..\..\..\Data Ivan\Elektro\Robotika\BW_Main_Code\stm_lib\inc /I..\..\..\..\..\Data Ivan\Elektro\Robotika\BW_Main_Code\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB /I..\..\..\..\..\Data Ivan\Elektro\Robotika\BW_Main_Code\cmsis /I..\..\..\..\..\Data Ivan\Elektro\Robotika /I..\..\..\..\..\Data Ivan\Elektro\Robotika\BW_Main_Code /I..\..\..\..\..\Data Ivan\Elektro\coding /I..\..\..\..\..\Data Ivan\Elektro\Robotika\BW_Main_Code\stm_lib">
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="16c8e06d065">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16c8e06bdf6">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="16c8e070ddf">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="16c8e06cc7e">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="16c8e070de4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="16c8e06eb3f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\i2c_VL53L0X.h" lastModified="1654b669ade">
+         <include file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\main.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="16c8e06eb39">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="16c8e06d8ee">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="16c8e06ba03">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\delay.h" lastModified="1654b430aac">
+         <include file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\main.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="16c8e074347">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\Init_Ping)).h" lastModified="16888abd0b1">
+         <include file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\main.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="16c8e1fc940">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="16c8e06d8f8">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\delay.c" lastModified="16294addded">
+         <include file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\main.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\main.h" lastModified="16c8e458d72">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\..\..\coding\Tracer_2019.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\Init_Ping)).h"/>
+         <include file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\delay.h"/>
+         <include file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\adc_comp.h"/>
+         <include file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\i2c_VL53L0X.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16c8e06bdf1">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="16c8e071620">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="16c8e06ccc3">
+      </source>
+      <source file="..\..\..\main.c" lastModified="16c8e449c68">
+         <include file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\main.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\adc_comp.h" lastModified="1689eab04cf">
+         <include file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\main.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="16c8e06ccc1">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\adc_comp.c" lastModified="1689eab754b">
+         <include file="..\..\..\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB\adc_comp.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="16c8e074346">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="16c8e07161a">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="16c8e06cc77">
+      </source>
+   </includePath>
+</dependencies>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Rangefinder Maze\Rangefinder_SYSTEM_V1.3-04 Februari 2021\Rangefinder_SYSTEM_V1.2\cmsis -I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Rangefinder Maze\Rangefinder_SYSTEM_V1.3-04 Februari 2021\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB -I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Rangefinder Maze\Rangefinder_SYSTEM_V1.3-04 Februari 2021\Rangefinder_SYSTEM_V1.2 -I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Rangefinder Maze\Rangefinder_SYSTEM_V1.3-04 Februari 2021\Rangefinder_SYSTEM_V1.2\cmsis_boot -I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Rangefinder Maze\Rangefinder_SYSTEM_V1.3-04 Februari 2021\Rangefinder_SYSTEM_V1.2\stm_lib\inc -I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Rangefinder Maze\Rangefinder_SYSTEM_V1.3-04 Februari 2021\Rangefinder_SYSTEM_V1.2\stm_lib -I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Rangefinder Maze\Rangefinder_SYSTEM_V1.3-04 Februari 2021">
+      <target file="i2c_VL53L0X.o" lastModified="1881b16f52e">
+         <source file="..\..\..\Rangefinder_SYSLIB\i2c_VL53L0X.c" lastModified="1654b6eb309"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="1881b16f786">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="1629f9e7f34"/>
+      </target>
+      <target file="syscalls.o" lastModified="1881b16f831">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1629f9e3b6d"/>
+      </target>
+      <target file="i2c_Pixy.o" lastModified="1881b16f725">
+         <source file="..\..\..\Rangefinder_SYSLIB\i2c_Pixy.c" lastModified="1654b580741"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="1881b16f3f4">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="1629f9e6f66"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="1881b16f99c">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="162eec8c10e"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1881b16f4a4">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="162f876f478"/>
+      </target>
+      <target file="adc_comp.o" lastModified="1881b16f899">
+         <source file="..\..\..\Rangefinder_SYSLIB\adc_comp.c" lastModified="187e220dcf1"/>
+      </target>
+      <target file="main.o" lastModified="1881b3f6c74">
+         <source file="..\..\..\main.c" lastModified="1881b3f6a17"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1881b16f5bb">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1629f9e5e33"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="1881b16f7dd">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="1629f9e8ea2"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1881b16f6d1">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1629f9e47d8"/>
+      </target>
+      <target file="Init_Ping)).o" lastModified="1881b16f462">
+         <source file="..\..\..\Rangefinder_SYSLIB\Init_Ping)).c" lastModified="1877b8ad8ae"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="1881b16f56b">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="1629f9e47ee"/>
+      </target>
+      <target file="delay.o" lastModified="1881b16f366">
+         <source file="..\..\..\Rangefinder_SYSLIB\delay.c" lastModified="16294addded"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="1881b16f8ed">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="176ad4e6d73"/>
+      </target>
+      <target file="misc.o" lastModified="1881b16f938">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="1629f9ea240"/>
+      </target>
+   </processor>
+</history>

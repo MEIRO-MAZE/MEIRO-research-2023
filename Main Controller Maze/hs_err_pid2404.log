@@ -1,0 +1,418 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x779a3aef, pid=2404, tid=5628
+#
+# JRE version: 6.0_17-b04
+# Java VM: Java HotSpot(TM) Client VM (14.3-b01 mixed mode windows-x86 )
+# Problematic frame:
+# C  [GDI32.dll+0x73aef]
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x023f8c00):  JavaThread "main" [_thread_in_native, id=5628, stack(0x00090000,0x00290000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x3d2e4000
+
+Registers:
+EAX=0x3d2e3ff8, EBX=0x00000004, ECX=0x3d2e4000, EDX=0x3bfa0188
+ESP=0x0028d09c, EBP=0x0028d0b4, ESI=0x00000000, EDI=0x00000000
+EIP=0x779a3aef, EFLAGS=0x00010246
+
+Top of Stack: (sp=0x0028d09c)
+0x0028d09c:   3d2e3ff0 00000009 0000001f 00000000
+0x0028d0ac:   0028d524 3bfa0188 0028d494 779a3a3a
+0x0028d0bc:   0028d10c 3d2e3ff8 0028d168 00000000
+0x0028d0cc:   0028d104 0028d11c 0028d0f4 3d2e3fd8
+0x0028d0dc:   3d2e3ff8 0028d524 0028d4c0 00000000
+0x0028d0ec:   00000000 3d2e3ff8 00000001 3d2e3fd8
+0x0028d0fc:   3d2e3ff0 00000000 00000000 3bfa0188
+0x0028d10c:   3d2e3ff8 00000000 00000000 0028d524 
+
+Instructions: (pc=0x779a3aef)
+0x779a3adf:   14 39 08 0f 87 a4 00 00 00 8b 00 8b 18 8d 48 08
+0x779a3aef:   8b 11 89 4d f4 2b d3 0f bf 48 06 b8 12 01 00 00 
+
+
+Stack: [0x00090000,0x00290000],  sp=0x0028d09c,  free space=2036k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [GDI32.dll+0x73aef]
+C  [GDI32.dll+0x73a3a]
+C  [GDI32.dll+0x3a043]
+C  [GDI32.dll+0x71d55]
+C  [swt-win32-3740.dll+0xe89b]
+J  org.eclipse.swt.internal.win32.OS.ScriptItemize([CIILorg/eclipse/swt/internal/win32/SCRIPT_CONTROL;Lorg/eclipse/swt/internal/win32/SCRIPT_STATE;I[I)I
+J  org.eclipse.swt.graphics.TextLayout.itemize()[Lorg/eclipse/swt/graphics/TextLayout$StyleItem;
+J  org.eclipse.swt.graphics.TextLayout.computeRuns(Lorg/eclipse/swt/graphics/GC;)V
+J  org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(IIII)Lorg/eclipse/swt/graphics/TextLayout;
+J  org.eclipse.swt.custom.StyledTextRenderer.calculate(II)V
+J  org.eclipse.swt.custom.StyledTextRenderer.calculateClientArea()V
+j  org.eclipse.swt.custom.StyledText.handleResize(Lorg/eclipse/swt/widgets/Event;)V+217
+J  org.eclipse.swt.custom.StyledText$7.handleEvent(Lorg/eclipse/swt/widgets/Event;)V
+J  org.eclipse.swt.widgets.EventTable.sendEvent(Lorg/eclipse/swt/widgets/Event;)V
+J  org.eclipse.swt.widgets.Widget.sendEvent(ILorg/eclipse/swt/widgets/Event;Z)V
+j  org.eclipse.swt.widgets.Widget.sendEvent(I)V+4
+j  org.eclipse.swt.widgets.Control.WM_SIZE(II)Lorg/eclipse/swt/internal/win32/LRESULT;+26
+j  org.eclipse.swt.widgets.Scrollable.WM_SIZE(II)Lorg/eclipse/swt/internal/win32/LRESULT;+15
+j  org.eclipse.swt.widgets.Composite.WM_SIZE(II)Lorg/eclipse/swt/internal/win32/LRESULT;+31
+j  org.eclipse.swt.widgets.Canvas.WM_SIZE(II)Lorg/eclipse/swt/internal/win32/LRESULT;+3
+J  org.eclipse.swt.widgets.Control.windowProc(IIII)I
+J  org.eclipse.swt.widgets.Canvas.windowProc(IIII)I
+J  org.eclipse.swt.widgets.Display.windowProc(IIII)I
+v  ~StubRoutines::call_stub
+V  [jvm.dll+0xecf9c]
+V  [jvm.dll+0x1741d1]
+V  [jvm.dll+0xed01d]
+V  [jvm.dll+0xf5e2f]
+V  [jvm.dll+0xf7c57]
+C  [swt-win32-3740.dll+0x122f]
+C  0x39670018
+C  [USER32.dll+0x775e]
+C  [USER32.dll+0x8c2a]
+C  [USER32.dll+0x3ac8d]
+C  [USER32.dll+0xc0c5]
+C  [USER32.dll+0xb5d3]
+C  [uxtheme.dll+0x1df3]
+C  [uxtheme.dll+0x1e23]
+C  [USER32.dll+0xb56a]
+C  [swt-win32-3740.dll+0x38aa]
+J  org.eclipse.swt.widgets.Scrollable.callWindowProc(IIII)I
+J  org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(II)Lorg/eclipse/swt/internal/win32/LRESULT;
+J  org.eclipse.swt.widgets.Canvas.WM_WINDOWPOSCHANGED(II)Lorg/eclipse/swt/internal/win32/LRESULT;
+J  org.eclipse.swt.widgets.Control.windowProc(IIII)I
+J  org.eclipse.swt.widgets.Canvas.windowProc(IIII)I
+J  org.eclipse.swt.widgets.Display.windowProc(IIII)I
+v  ~StubRoutines::call_stub
+V  [jvm.dll+0xecf9c]
+V  [jvm.dll+0x1741d1]
+V  [jvm.dll+0xed01d]
+V  [jvm.dll+0xf5e2f]
+V  [jvm.dll+0xf7c57]
+C  [swt-win32-3740.dll+0x122f]
+C  0x39670018
+C  [USER32.dll+0x775e]
+C  [USER32.dll+0x9bda]
+C  [USER32.dll+0x8dd6]
+C  [USER32.dll+0xd2c2]
+C  [ntdll.dll+0x3dd92]
+J  org.eclipse.swt.internal.win32.OS.SetWindowPos(IIIIIII)Z
+J  org.eclipse.swt.widgets.Widget.SetWindowPos(IIIIIII)Z
+J  org.eclipse.swt.widgets.Control.forceResize()V
+j  org.eclipse.swt.widgets.ScrollBar.getThumbTrackBounds()Lorg/eclipse/swt/graphics/Rectangle;+8
+j  org.eclipse.jface.text.source.SourceViewer$RulerLayout.computeScrollArrowHeights(Lorg/eclipse/swt/custom/StyledText;I)[I+6
+j  org.eclipse.jface.text.source.SourceViewer$RulerLayout.getVerticalScrollArrowHeights(Lorg/eclipse/swt/custom/StyledText;I)[I+105
+j  org.eclipse.jface.text.source.SourceViewer$RulerLayout.layout(Lorg/eclipse/swt/widgets/Composite;Z)V+291
+J  org.eclipse.swt.widgets.Composite.updateLayout(ZZ)V
+j  org.eclipse.swt.widgets.Composite.updateLayout(Z)V+3
+j  org.eclipse.swt.widgets.Composite.layout(ZZ)V+24
+j  org.eclipse.swt.widgets.Composite.layout(Z)V+15
+j  org.eclipse.jface.text.source.CompositeRuler.layoutTextViewer()V+54
+j  org.eclipse.jface.text.source.CompositeRuler.addDecorator(ILorg/eclipse/jface/text/source/IVerticalRulerColumn;)V+91
+j  org.eclipse.ui.texteditor.AbstractTextEditor$11.run()V+46
+J  org.eclipse.core.runtime.SafeRunner.run(Lorg/eclipse/core/runtime/ISafeRunnable;)V
+j  org.eclipse.ui.texteditor.AbstractTextEditor$ColumnSupport.addColumn(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/ui/texteditor/rulers/RulerColumnDescriptor;)V+22
+j  org.eclipse.ui.texteditor.AbstractTextEditor$ColumnSupport.setColumnVisible(Lorg/eclipse/ui/texteditor/rulers/RulerColumnDescriptor;Z)V+61
+j  org.eclipse.ui.texteditor.AbstractTextEditor.updateContributedRulerColumns(Lorg/eclipse/jface/text/source/CompositeRuler;)V+126
+j  org.eclipse.ui.texteditor.AbstractTextEditor.createPartControl(Lorg/eclipse/swt/widgets/Composite;)V+874
+j  org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(Lorg/eclipse/swt/widgets/Composite;)V+70
+j  org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(Lorg/eclipse/swt/widgets/Composite;)V+2
+j  org.eclipse.cdt.internal.ui.editor.CEditor.createPartControl(Lorg/eclipse/swt/widgets/Composite;)V+2
+j  org.eclipse.ui.internal.EditorReference.createPartHelper()Lorg/eclipse/ui/IEditorPart;+361
+j  org.eclipse.ui.internal.EditorReference.createPart()Lorg/eclipse/ui/IWorkbenchPart;+27
+j  org.eclipse.ui.internal.WorkbenchPartReference.getPart(Z)Lorg/eclipse/ui/IWorkbenchPart;+65
+j  org.eclipse.ui.internal.EditorReference.getEditor(Z)Lorg/eclipse/ui/IEditorPart;+2
+j  org.eclipse.ui.internal.EditorManager.findEditor(Ljava/lang/String;Lorg/eclipse/ui/IEditorInput;I)Lorg/eclipse/ui/IEditorPart;+22
+j  org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;ZILorg/eclipse/ui/IMemento;)Lorg/eclipse/ui/IEditorPart;+23
+j  org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;ZILorg/eclipse/ui/IMemento;)Lorg/eclipse/ui/IEditorPart;+27
+j  org.eclipse.ui.internal.WorkbenchPage.access$11(Lorg/eclipse/ui/internal/WorkbenchPage;Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;ZILorg/eclipse/ui/IMemento;)Lorg/eclipse/ui/IEditorPart;+8
+j  org.eclipse.ui.internal.WorkbenchPage$10.run()V+29
+j  org.eclipse.swt.custom.BusyIndicator.showWhile(Lorg/eclipse/swt/widgets/Display;Ljava/lang/Runnable;)V+116
+j  org.eclipse.ui.internal.WorkbenchPage.openEditor(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;ZILorg/eclipse/ui/IMemento;)Lorg/eclipse/ui/IEditorPart;+59
+j  org.eclipse.ui.internal.WorkbenchPage.openEditor(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;ZI)Lorg/eclipse/ui/IEditorPart;+7
+j  org.eclipse.ui.internal.WorkbenchPage.openEditor(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;Z)Lorg/eclipse/ui/IEditorPart;+5
+j  org.eclipse.cdt.internal.ui.util.EditorUtility.openInEditor(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;Z)Lorg/eclipse/ui/IEditorPart;+16
+j  org.eclipse.cdt.internal.ui.util.EditorUtility.openInEditor(Ljava/lang/Object;Z)Lorg/eclipse/ui/IEditorPart;+32
+j  org.eclipse.cdt.internal.ui.search.actions.SelectionParseAction.open(Lorg/eclipse/cdt/core/model/ITranslationUnit;II)V+6
+j  org.eclipse.cdt.internal.ui.search.actions.OpenDeclarationsJob$1.run()V+260
+J  org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Z)Z
+J  org.eclipse.swt.widgets.Display.readAndDispatch()Z
+...<more frames>...
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+J  org.eclipse.swt.internal.win32.OS.ScriptItemize([CIILorg/eclipse/swt/internal/win32/SCRIPT_CONTROL;Lorg/eclipse/swt/internal/win32/SCRIPT_STATE;I[I)I
+J  org.eclipse.swt.graphics.TextLayout.itemize()[Lorg/eclipse/swt/graphics/TextLayout$StyleItem;
+J  org.eclipse.swt.graphics.TextLayout.computeRuns(Lorg/eclipse/swt/graphics/GC;)V
+J  org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(IIII)Lorg/eclipse/swt/graphics/TextLayout;
+J  org.eclipse.swt.custom.StyledTextRenderer.calculate(II)V
+J  org.eclipse.swt.custom.StyledTextRenderer.calculateClientArea()V
+j  org.eclipse.swt.custom.StyledText.handleResize(Lorg/eclipse/swt/widgets/Event;)V+217
+J  org.eclipse.swt.custom.StyledText$7.handleEvent(Lorg/eclipse/swt/widgets/Event;)V
+J  org.eclipse.swt.widgets.EventTable.sendEvent(Lorg/eclipse/swt/widgets/Event;)V
+J  org.eclipse.swt.widgets.Widget.sendEvent(ILorg/eclipse/swt/widgets/Event;Z)V
+j  org.eclipse.swt.widgets.Widget.sendEvent(I)V+4
+j  org.eclipse.swt.widgets.Control.WM_SIZE(II)Lorg/eclipse/swt/internal/win32/LRESULT;+26
+j  org.eclipse.swt.widgets.Scrollable.WM_SIZE(II)Lorg/eclipse/swt/internal/win32/LRESULT;+15
+j  org.eclipse.swt.widgets.Composite.WM_SIZE(II)Lorg/eclipse/swt/internal/win32/LRESULT;+31
+j  org.eclipse.swt.widgets.Canvas.WM_SIZE(II)Lorg/eclipse/swt/internal/win32/LRESULT;+3
+J  org.eclipse.swt.widgets.Control.windowProc(IIII)I
+J  org.eclipse.swt.widgets.Canvas.windowProc(IIII)I
+J  org.eclipse.swt.widgets.Display.windowProc(IIII)I
+v  ~StubRoutines::call_stub
+J  org.eclipse.swt.internal.win32.OS.DefWindowProcW(IIII)I
+J  org.eclipse.swt.widgets.Scrollable.callWindowProc(IIII)I
+J  org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(II)Lorg/eclipse/swt/internal/win32/LRESULT;
+J  org.eclipse.swt.widgets.Canvas.WM_WINDOWPOSCHANGED(II)Lorg/eclipse/swt/internal/win32/LRESULT;
+J  org.eclipse.swt.widgets.Control.windowProc(IIII)I
+J  org.eclipse.swt.widgets.Canvas.windowProc(IIII)I
+J  org.eclipse.swt.widgets.Display.windowProc(IIII)I
+v  ~StubRoutines::call_stub
+J  org.eclipse.swt.internal.win32.OS.SetWindowPos(IIIIIII)Z
+J  org.eclipse.swt.widgets.Widget.SetWindowPos(IIIIIII)Z
+J  org.eclipse.swt.widgets.Control.forceResize()V
+j  org.eclipse.swt.widgets.ScrollBar.getThumbTrackBounds()Lorg/eclipse/swt/graphics/Rectangle;+8
+j  org.eclipse.jface.text.source.SourceViewer$RulerLayout.computeScrollArrowHeights(Lorg/eclipse/swt/custom/StyledText;I)[I+6
+j  org.eclipse.jface.text.source.SourceViewer$RulerLayout.getVerticalScrollArrowHeights(Lorg/eclipse/swt/custom/StyledText;I)[I+105
+j  org.eclipse.jface.text.source.SourceViewer$RulerLayout.layout(Lorg/eclipse/swt/widgets/Composite;Z)V+291
+J  org.eclipse.swt.widgets.Composite.updateLayout(ZZ)V
+j  org.eclipse.swt.widgets.Composite.updateLayout(Z)V+3
+j  org.eclipse.swt.widgets.Composite.layout(ZZ)V+24
+j  org.eclipse.swt.widgets.Composite.layout(Z)V+15
+j  org.eclipse.jface.text.source.CompositeRuler.layoutTextViewer()V+54
+j  org.eclipse.jface.text.source.CompositeRuler.addDecorator(ILorg/eclipse/jface/text/source/IVerticalRulerColumn;)V+91
+j  org.eclipse.ui.texteditor.AbstractTextEditor$11.run()V+46
+J  org.eclipse.core.runtime.SafeRunner.run(Lorg/eclipse/core/runtime/ISafeRunnable;)V
+j  org.eclipse.ui.texteditor.AbstractTextEditor$ColumnSupport.addColumn(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/ui/texteditor/rulers/RulerColumnDescriptor;)V+22
+j  org.eclipse.ui.texteditor.AbstractTextEditor$ColumnSupport.setColumnVisible(Lorg/eclipse/ui/texteditor/rulers/RulerColumnDescriptor;Z)V+61
+j  org.eclipse.ui.texteditor.AbstractTextEditor.updateContributedRulerColumns(Lorg/eclipse/jface/text/source/CompositeRuler;)V+126
+j  org.eclipse.ui.texteditor.AbstractTextEditor.createPartControl(Lorg/eclipse/swt/widgets/Composite;)V+874
+j  org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(Lorg/eclipse/swt/widgets/Composite;)V+70
+j  org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(Lorg/eclipse/swt/widgets/Composite;)V+2
+j  org.eclipse.cdt.internal.ui.editor.CEditor.createPartControl(Lorg/eclipse/swt/widgets/Composite;)V+2
+j  org.eclipse.ui.internal.EditorReference.createPartHelper()Lorg/eclipse/ui/IEditorPart;+361
+j  org.eclipse.ui.internal.EditorReference.createPart()Lorg/eclipse/ui/IWorkbenchPart;+27
+j  org.eclipse.ui.internal.WorkbenchPartReference.getPart(Z)Lorg/eclipse/ui/IWorkbenchPart;+65
+j  org.eclipse.ui.internal.EditorReference.getEditor(Z)Lorg/eclipse/ui/IEditorPart;+2
+j  org.eclipse.ui.internal.EditorManager.findEditor(Ljava/lang/String;Lorg/eclipse/ui/IEditorInput;I)Lorg/eclipse/ui/IEditorPart;+22
+j  org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;ZILorg/eclipse/ui/IMemento;)Lorg/eclipse/ui/IEditorPart;+23
+j  org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;ZILorg/eclipse/ui/IMemento;)Lorg/eclipse/ui/IEditorPart;+27
+j  org.eclipse.ui.internal.WorkbenchPage.access$11(Lorg/eclipse/ui/internal/WorkbenchPage;Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;ZILorg/eclipse/ui/IMemento;)Lorg/eclipse/ui/IEditorPart;+8
+j  org.eclipse.ui.internal.WorkbenchPage$10.run()V+29
+j  org.eclipse.swt.custom.BusyIndicator.showWhile(Lorg/eclipse/swt/widgets/Display;Ljava/lang/Runnable;)V+116
+j  org.eclipse.ui.internal.WorkbenchPage.openEditor(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;ZILorg/eclipse/ui/IMemento;)Lorg/eclipse/ui/IEditorPart;+59
+j  org.eclipse.ui.internal.WorkbenchPage.openEditor(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;ZI)Lorg/eclipse/ui/IEditorPart;+7
+j  org.eclipse.ui.internal.WorkbenchPage.openEditor(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;Z)Lorg/eclipse/ui/IEditorPart;+5
+j  org.eclipse.cdt.internal.ui.util.EditorUtility.openInEditor(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;Z)Lorg/eclipse/ui/IEditorPart;+16
+j  org.eclipse.cdt.internal.ui.util.EditorUtility.openInEditor(Ljava/lang/Object;Z)Lorg/eclipse/ui/IEditorPart;+32
+j  org.eclipse.cdt.internal.ui.search.actions.SelectionParseAction.open(Lorg/eclipse/cdt/core/model/ITranslationUnit;II)V+6
+j  org.eclipse.cdt.internal.ui.search.actions.OpenDeclarationsJob$1.run()V+260
+J  org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Z)Z
+J  org.eclipse.swt.widgets.Display.readAndDispatch()Z
+J  org.eclipse.ui.internal.Workbench.runEventLoop(Lorg/eclipse/jface/window/Window$IExceptionHandler;Lorg/eclipse/swt/widgets/Display;)V
+j  org.eclipse.ui.internal.Workbench.runUI()I+555
+j  org.eclipse.ui.internal.Workbench.access$4(Lorg/eclipse/ui/internal/Workbench;)I+1
+j  org.eclipse.ui.internal.Workbench$7.run()V+73
+j  org.eclipse.core.databinding.observable.Realm.runWithDefault(Lorg/eclipse/core/databinding/observable/Realm;Ljava/lang/Runnable;)V+12
+j  org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/ui/application/WorkbenchAdvisor;)I+18
+j  org.eclipse.ui.PlatformUI.createAndRunWorkbench(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/ui/application/WorkbenchAdvisor;)I+2
+j  org.coocox.coide.rcp.Application.start(Lorg/eclipse/equinox/app/IApplicationContext;)Ljava/lang/Object;+50
+j  org.eclipse.equinox.internal.app.EclipseAppHandle.run(Ljava/lang/Object;)Ljava/lang/Object;+135
+j  org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Ljava/lang/Object;)Ljava/lang/Object;+103
+j  org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Ljava/lang/Object;)Ljava/lang/Object;+29
+j  org.eclipse.core.runtime.adaptor.EclipseStarter.run(Ljava/lang/Object;)Ljava/lang/Object;+149
+j  org.eclipse.core.runtime.adaptor.EclipseStarter.run([Ljava/lang/String;Ljava/lang/Runnable;)Ljava/lang/Object;+183
+v  ~StubRoutines::call_stub
+j  sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+0
+j  sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+87
+j  sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+6
+j  java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+161
+j  org.eclipse.equinox.launcher.Main.invokeFramework([Ljava/lang/String;[Ljava/net/URL;)V+211
+j  org.eclipse.equinox.launcher.Main.basicRun([Ljava/lang/String;)V+126
+j  org.eclipse.equinox.launcher.Main.run([Ljava/lang/String;)I+4
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x3884d000 JavaThread "org.eclipse.cdt.internal.ui.text.CReconciler" daemon [_thread_blocked, id=1452, stack(0x40210000,0x40410000)]
+  0x38849400 JavaThread "Worker-80" [_thread_blocked, id=3420, stack(0x3b5a0000,0x3b7a0000)]
+  0x3884c800 JavaThread "Worker-79" [_thread_blocked, id=3560, stack(0x39f20000,0x3a120000)]
+  0x3884dc00 JavaThread "org.eclipse.cdt.internal.ui.text.CReconciler" daemon [_thread_blocked, id=5548, stack(0x406a0000,0x408a0000)]
+  0x3884d400 JavaThread "Worker-66" [_thread_blocked, id=464, stack(0x40aa0000,0x40ca0000)]
+  0x3884c400 JavaThread "org.eclipse.cdt.internal.ui.text.CReconciler" daemon [_thread_blocked, id=2616, stack(0x3b7a0000,0x3b9a0000)]
+  0x38848800 JavaThread "org.eclipse.cdt.internal.ui.text.CReconciler" daemon [_thread_blocked, id=6004, stack(0x3c1a0000,0x3c3a0000)]
+  0x38848c00 JavaThread "org.eclipse.cdt.internal.ui.text.CReconciler" daemon [_thread_blocked, id=4164, stack(0x3c7f0000,0x3c9f0000)]
+  0x3884b800 JavaThread "org.eclipse.cdt.internal.ui.text.CReconciler" daemon [_thread_blocked, id=1504, stack(0x3cbf0000,0x3cdf0000)]
+  0x3884bc00 JavaThread "org.eclipse.cdt.internal.ui.text.CReconciler" daemon [_thread_blocked, id=3848, stack(0x416f0000,0x418f0000)]
+  0x3884b000 JavaThread "pool-1-thread-2" [_thread_blocked, id=968, stack(0x3d760000,0x3d960000)]
+  0x38849800 JavaThread "pool-1-thread-1" [_thread_blocked, id=3288, stack(0x3d520000,0x3d720000)]
+  0x3884a000 JavaThread "Bundle File Closer" daemon [_thread_blocked, id=5724, stack(0x3c5a0000,0x3c7a0000)]
+  0x36e1e400 JavaThread "Worker-JM" [_thread_blocked, id=4600, stack(0x39400000,0x39600000)]
+  0x36e1e000 JavaThread "Framework Event Dispatcher" daemon [_thread_blocked, id=3052, stack(0x390d0000,0x392d0000)]
+  0x36e1d400 JavaThread "Start Level Event Dispatcher" daemon [_thread_blocked, id=2412, stack(0x38e90000,0x39090000)]
+  0x36e1d800 JavaThread "State Data Manager" daemon [_thread_blocked, id=3272, stack(0x38c50000,0x38e50000)]
+  0x36e1c800 JavaThread "Framework Active Thread" [_thread_blocked, id=3144, stack(0x38a10000,0x38c10000)]
+  0x36e1fc00 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=2980, stack(0x37fa0000,0x381a0000)]
+  0x36e20800 JavaThread "CompilerThread0" daemon [_thread_blocked, id=3556, stack(0x37d60000,0x37f60000)]
+  0x36e1cc00 JavaThread "Attach Listener" daemon [_thread_blocked, id=4776, stack(0x37b20000,0x37d20000)]
+  0x36e1ec00 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=5508, stack(0x378e0000,0x37ae0000)]
+  0x36e1c000 JavaThread "Surrogate Locker Thread (CMS)" daemon [_thread_blocked, id=1940, stack(0x376a0000,0x378a0000)]
+  0x36e00000 JavaThread "Finalizer" daemon [_thread_blocked, id=1720, stack(0x37460000,0x37660000)]
+  0x36dfa800 JavaThread "Reference Handler" daemon [_thread_blocked, id=5320, stack(0x37220000,0x37420000)]
+=>0x023f8c00 JavaThread "main" [_thread_in_native, id=5628, stack(0x00090000,0x00290000)]
+
+Other Threads:
+  0x048fec00 VMThread [stack: 0x36fe0000,0x371e0000] [id=152]
+  0x36e37c00 WatcherThread [stack: 0x381e0000,0x383e0000] [id=3540]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ par new generation   total 14784K, used 2362K [0x04d80000, 0x05d80000, 0x074e0000)
+  eden space 13184K,   9% used [0x04d80000, 0x04ead870, 0x05a60000)
+  from space 1600K,  72% used [0x05bf0000, 0x05d111a0, 0x05d80000)
+  to   space 1600K,   0% used [0x05a60000, 0x05a60000, 0x05bf0000)
+ concurrent mark-sweep generation total 253244K, used 119041K [0x074e0000, 0x16c2f000, 0x24d80000)
+ concurrent-mark-sweep perm gen total 88340K, used 53004K [0x24d80000, 0x2a3c5000, 0x34d80000)
+
+Dynamic libraries:
+0x00400000 - 0x00472000 	C:\CooCox\CoIDE\CoIDE.exe
+0x77e70000 - 0x77fd8000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x77760000 - 0x778a0000 	C:\WINDOWS\SYSTEM32\KERNEL32.DLL
+0x77240000 - 0x7730f000 	C:\WINDOWS\SYSTEM32\KERNELBASE.dll
+0x75c50000 - 0x75da0000 	C:\WINDOWS\SYSTEM32\USER32.dll
+0x77620000 - 0x776a6000 	C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.9600.16384_none_7c55c866aa0c3ff0\COMCTL32.dll
+0x75b30000 - 0x75bee000 	C:\WINDOWS\SYSTEM32\MSVCRT.dll
+0x77930000 - 0x77a38000 	C:\WINDOWS\SYSTEM32\GDI32.dll
+0x77b50000 - 0x77bc7000 	C:\WINDOWS\SYSTEM32\ADVAPI32.dll
+0x77bd0000 - 0x77c0e000 	C:\WINDOWS\SYSTEM32\sechost.dll
+0x75a70000 - 0x75b21000 	C:\WINDOWS\SYSTEM32\RPCRT4.dll
+0x758a0000 - 0x758bd000 	C:\WINDOWS\SYSTEM32\SspiCli.dll
+0x75890000 - 0x75899000 	C:\WINDOWS\SYSTEM32\CRYPTBASE.dll
+0x75830000 - 0x75881000 	C:\WINDOWS\SYSTEM32\bcryptPrimitives.dll
+0x75db0000 - 0x75dd5000 	C:\WINDOWS\system32\IMM32.DLL
+0x77a50000 - 0x77b47000 	C:\WINDOWS\SYSTEM32\MSCTF.dll
+0x72000000 - 0x7200d000 	C:\CooCox\CoIDE\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.100.v20110502\eclipse_1406.dll
+0x6fa40000 - 0x6fa48000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x6d800000 - 0x6da8b000 	C:\CooCox\CoIDE\jre\bin\client\jvm.dll
+0x6a140000 - 0x6a160000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x7c340000 - 0x7c396000 	C:\CooCox\CoIDE\jre\bin\MSVCR71.dll
+0x6a120000 - 0x6a140000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x75e80000 - 0x75eba000 	C:\WINDOWS\SYSTEM32\cfgmgr32.dll
+0x74f60000 - 0x74f7f000 	C:\WINDOWS\SYSTEM32\DEVOBJ.dll
+0x737d0000 - 0x7386a000 	C:\WINDOWS\system32\apphelp.dll
+0x6d7b0000 - 0x6d7bc000 	C:\CooCox\CoIDE\jre\bin\verify.dll
+0x6d330000 - 0x6d34f000 	C:\CooCox\CoIDE\jre\bin\java.dll
+0x6d290000 - 0x6d298000 	C:\CooCox\CoIDE\jre\bin\hpi.dll
+0x75a60000 - 0x75a66000 	C:\WINDOWS\SYSTEM32\PSAPI.DLL
+0x6d7f0000 - 0x6d7ff000 	C:\CooCox\CoIDE\jre\bin\zip.dll
+0x75280000 - 0x75298000 	C:\WINDOWS\SYSTEM32\CRYPTSP.dll
+0x75250000 - 0x7527f000 	C:\WINDOWS\system32\rsaenh.dll
+0x75230000 - 0x7524d000 	C:\WINDOWS\SYSTEM32\bcrypt.dll
+0x74450000 - 0x74469000 	C:\WINDOWS\SYSTEM32\USERENV.dll
+0x74b70000 - 0x74b7e000 	C:\WINDOWS\SYSTEM32\profapi.dll
+0x6d610000 - 0x6d623000 	C:\CooCox\CoIDE\jre\bin\net.dll
+0x776b0000 - 0x776fd000 	C:\WINDOWS\SYSTEM32\WS2_32.dll
+0x75da0000 - 0x75da7000 	C:\WINDOWS\SYSTEM32\NSI.dll
+0x6fe00000 - 0x6fe45000 	C:\WINDOWS\system32\mswsock.dll
+0x6b790000 - 0x6b7a0000 	C:\WINDOWS\system32\napinsp.dll
+0x6ac40000 - 0x6ac54000 	C:\WINDOWS\system32\pnrpnsp.dll
+0x6ac20000 - 0x6ac32000 	C:\WINDOWS\system32\NLAapi.dll
+0x74ae0000 - 0x74b5c000 	C:\WINDOWS\SYSTEM32\DNSAPI.dll
+0x6b780000 - 0x6b789000 	C:\WINDOWS\System32\winrnr.dll
+0x6ac10000 - 0x6ac1f000 	C:\WINDOWS\system32\wshbth.dll
+0x6b7b0000 - 0x6b7b7000 	C:\Windows\System32\rasadhlp.dll
+0x74e90000 - 0x74eae000 	C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+0x74e80000 - 0x74e88000 	C:\WINDOWS\SYSTEM32\WINNSI.DLL
+0x6abc0000 - 0x6ac04000 	C:\WINDOWS\System32\fwpuclnt.dll
+0x752d0000 - 0x753ac000 	C:\WINDOWS\system32\uxtheme.dll
+0x75ec0000 - 0x7600e000 	C:\WINDOWS\SYSTEM32\combase.dll
+0x77310000 - 0x7741b000 	C:\WINDOWS\system32\ole32.dll
+0x75770000 - 0x75779000 	C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+0x6d630000 - 0x6d639000 	C:\CooCox\CoIDE\jre\bin\nio.dll
+0x39600000 - 0x3966e000 	C:\CooCox\CoIDE\configuration\org.eclipse.osgi\bundles\131\1\.cp\swt-win32-3740.dll
+0x75df0000 - 0x75e77000 	C:\WINDOWS\SYSTEM32\OLEAUT32.dll
+0x778a0000 - 0x77927000 	C:\WINDOWS\SYSTEM32\comdlg32.dll
+0x6a1c0000 - 0x6a21e000 	C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+0x753c0000 - 0x755a5000 	C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.16384_none_a9f4965301334e09\COMCTL32.dll
+0x76010000 - 0x771b3000 	C:\WINDOWS\SYSTEM32\SHELL32.dll
+0x75750000 - 0x75764000 	C:\WINDOWS\SYSTEM32\USP10.dll
+0x74ca0000 - 0x74e64000 	C:\WINDOWS\SYSTEM32\WININET.dll
+0x77c20000 - 0x77d9f000 	C:\WINDOWS\SYSTEM32\CRYPT32.dll
+0x77420000 - 0x77461000 	C:\WINDOWS\SYSTEM32\SHLWAPI.dll
+0x744f0000 - 0x74705000 	C:\WINDOWS\SYSTEM32\iertutil.dll
+0x75de0000 - 0x75dee000 	C:\WINDOWS\SYSTEM32\MSASN1.dll
+0x750f0000 - 0x75167000 	C:\WINDOWS\SYSTEM32\SHCORE.DLL
+0x74fb0000 - 0x74fc9000 	C:\WINDOWS\system32\dwmapi.dll
+0x73fb0000 - 0x740d4000 	C:\WINDOWS\SYSTEM32\propsys.dll
+0x771c0000 - 0x7723d000 	C:\WINDOWS\SYSTEM32\clbcatq.dll
+0x396b0000 - 0x396cd000 	C:\CooCox\CoIDE\configuration\org.eclipse.osgi\bundles\131\1\.cp\swt-gdip-win32-3740.dll
+0x758c0000 - 0x75a0d000 	C:\WINDOWS\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.9600.16384_none_dadf89385bc5c7d7\gdiplus.dll
+0x741a0000 - 0x742ed000 	C:\WINDOWS\SYSTEM32\WindowsCodecs.dll
+0x39950000 - 0x3995e000 	C:\CooCox\CoIDE\configuration\org.eclipse.osgi\bundles\87\1\.cp\os\win32\x86\localfile_1_0_0.dll
+0x68190000 - 0x683e3000 	C:\WINDOWS\system32\explorerframe.dll
+0x756d0000 - 0x75746000 	C:\WINDOWS\system32\DUser.dll
+0x6a8e0000 - 0x6aa2b000 	C:\WINDOWS\system32\DUI70.dll
+0x6a2e0000 - 0x6a328000 	C:\WINDOWS\SYSTEM32\oleacc.dll
+0x753b0000 - 0x753b6000 	C:\WINDOWS\SYSTEM32\msimg32.dll
+0x673c0000 - 0x673cc000 	C:\CooCox\CoIDE\bin\jRegistryKey.dll
+0x6c2c0000 - 0x6c322000 	C:\Users\BERTO\AppData\Local\Temp\libsqlitejdbc-494868069054565394.lib
+0x676d0000 - 0x6818a000 	C:\Windows\SYSTEM32\ieframe.dll
+0x73e80000 - 0x73fa1000 	C:\WINDOWS\SYSTEM32\urlmon.dll
+0x6b700000 - 0x6b77b000 	C:\WINDOWS\SYSTEM32\sxs.dll
+0x3dd60000 - 0x3edc2000 	C:\Windows\SYSTEM32\mshtml.dll
+0x752a0000 - 0x752a9000 	C:\WINDOWS\SYSTEM32\Secur32.dll
+0x66240000 - 0x66652000 	C:\Windows\SYSTEM32\jscript9.dll
+0x6abb0000 - 0x6abb7000 	C:\WINDOWS\SYSTEM32\DPAPI.DLL
+0x756c0000 - 0x756cc000 	C:\WINDOWS\system32\msimtf.dll
+0x6fd80000 - 0x6fdbe000 	C:\WINDOWS\SYSTEM32\powrprof.dll
+0x75620000 - 0x7564f000 	C:\WINDOWS\SYSTEM32\MLANG.dll
+0x75650000 - 0x756b2000 	C:\WINDOWS\SYSTEM32\dxgi.dll
+0x6aba0000 - 0x6abaa000 	C:\WINDOWS\SYSTEM32\ondemandconnroutehelper.dll
+0x74a40000 - 0x74ad4000 	C:\WINDOWS\SYSTEM32\winhttp.dll
+0x6baf0000 - 0x6bbd4000 	C:\Windows\SYSTEM32\uiautomationcore.dll
+0x755e0000 - 0x75611000 	C:\WINDOWS\SYSTEM32\msls31.dll
+0x74120000 - 0x74199000 	C:\WINDOWS\SYSTEM32\DSOUND.dll
+0x65e70000 - 0x66234000 	C:\WINDOWS\SYSTEM32\d2d1.dll
+0x72be0000 - 0x72d52000 	C:\WINDOWS\SYSTEM32\DWrite.dll
+0x6a570000 - 0x6a71d000 	C:\WINDOWS\SYSTEM32\d3d11.dll
+0x65c70000 - 0x65e6d000 	C:\WINDOWS\SYSTEM32\d3d10warp.dll
+0x6aaf0000 - 0x6ab1c000 	C:\WINDOWS\SYSTEM32\XmlLite.dll
+0x41530000 - 0x41557000 	C:\WINDOWS\SYSTEM32\crtdll.dll
+0x6aa70000 - 0x6aa7d000 	C:\WINDOWS\SYSTEM32\sfc_os.dll
+0x6aa60000 - 0x6aa63000 	C:\WINDOWS\SYSTEM32\sfc.dll
+0x77470000 - 0x7761c000 	C:\WINDOWS\SYSTEM32\SETUPAPI.dll
+
+VM Arguments:
+jvm_args: -Xms60m -Xmx512m -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M 
+java_command: <unknown>
+Launcher Type: generic
+
+Environment Variables:
+PATH=C:/CooCox/CoIDE/jre/bin/client;C:/CooCox/CoIDE/jre/bin;C:/CooCox/CoIDE/jre/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\CooCox\CoIDE\gcc\bin;C:\Program Files (x86)\Windows Live\Shared;E:\KEGIATAN ROBOTIC\===BATHARA WIJAYA===\KRPAI GOES TO REGIONAL 2018\SOFTWARE uK UTAMA\2017.8 - NOV 23 - Penyesuaian Navigasi\BW_2.17_Main_Controller_Ver.1.0;
+USERNAME=BERTO
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.2 Build 9200 
+
+CPU:total 4 (8 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, ht
+
+Memory: 4k page, physical 4099244k(2193724k free), swap 4194303k(2860104k free)
+
+vm_info: Java HotSpot(TM) Client VM (14.3-b01) for windows-x86 JRE (1.6.0_17-b04), built on Oct 11 2009 00:52:06 by "java_re" with MS VC++ 7.1
+
+time: Thu Nov 23 23:22:00 2017
+elapsed time: 10489 seconds
+

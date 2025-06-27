@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window>
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.debug.ui.ExpressionView"/>
+<orientation position="512" view="org.coocox.builder.ui.views.ProjectView"/>
+<orientation position="512" view="org.coocox.component.ui.ComponentView"/>
+<orientation position="512" view="org.coocox.codebugger.trace.ui.traceview"/>
+<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
+<orientation position="512" view="org.eclipse.debug.ui.VariableView"/>
+<orientation position="512" view="org.coocox.component.ui.Help"/>
+</fastViewData>
+<perspectiveBar/>
+<page focus="true" label="Workspace - CooCox CoBuilder">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+<part id="33"/>
+<part id="34"/>
+<part id="35"/>
+<part id="36"/>
+<part id="37"/>
+<part id="38"/>
+<part id="39"/>
+<part id="40"/>
+<part id="41"/>
+<part id="42"/>
+<part id="43"/>
+<part id="74"/>
+<part id="44"/>
+<part id="45"/>
+<part id="46"/>
+<part id="47"/>
+<part id="48"/>
+<part id="49"/>
+<part id="50"/>
+<part id="51"/>
+<part id="52"/>
+<part id="53"/>
+<part id="54"/>
+<part id="55"/>
+<part id="56"/>
+<part id="57"/>
+<part id="58"/>
+<part id="59"/>
+<part id="60"/>
+<part id="61"/>
+<part id="62"/>
+<part id="63"/>
+<part id="64"/>
+<part id="65"/>
+<part id="66"/>
+<part id="67"/>
+<part id="68"/>
+<part id="69"/>
+<part id="70"/>
+<part id="71"/>
+<part id="72"/>
+<part id="73"/>
+<part id="75"/>
+<part id="76"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="12125" selectionTopPixel="9160"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_pid_controller.c" partName="bw_pid_controller.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_pid_controller.c" title="bw_pid_controller.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_pid_controller.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_pid_controller.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="17254" selectionTopPixel="15210"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="bw_2021_algorithm.c" partName="bw_2021_algorithm.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_2021_algorithm.c" title="bw_2021_algorithm.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_2021_algorithm.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_2021_algorithm.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="84603" selectionTopPixel="74776"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_2021_algorithm.h" partName="bw_2021_algorithm.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_2021_algorithm.h" title="bw_2021_algorithm.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_2021_algorithm.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_2021_algorithm.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2767" selectionTopPixel="1740"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw2017_algorithm.h" partName="bw2017_algorithm.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw2017_algorithm.h" title="bw2017_algorithm.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw2017_algorithm.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw2017_algorithm.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15880" selectionTopPixel="12960"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw2017_algorithm.c" partName="bw2017_algorithm.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw2017_algorithm.c" title="bw2017_algorithm.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw2017_algorithm.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw2017_algorithm.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="547906" selectionTopPixel="401240"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_global_var.c" partName="bw_global_var.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_global_var.c" title="bw_global_var.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_global_var.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_global_var.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="44761" selectionTopPixel="35530"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_pid_controller.h" partName="bw_pid_controller.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_pid_controller.h" title="bw_pid_controller.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_pid_controller.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_pid_controller.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="952" selectionTopPixel="385"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_extinguisher.c" partName="bw_extinguisher.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_extinguisher.c" title="bw_extinguisher.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_extinguisher.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_extinguisher.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="6281" selectionTopPixel="4760"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_global_var.h" partName="bw_global_var.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_global_var.h" title="bw_global_var.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_global_var.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_global_var.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4444" selectionTopPixel="3230"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_ping_receiver.c" partName="bw_ping_receiver.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_ping_receiver.c" title="bw_ping_receiver.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_ping_receiver.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_ping_receiver.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8816" selectionTopPixel="3648"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_extinguisher.h" partName="bw_extinguisher.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_extinguisher.h" title="bw_extinguisher.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_extinguisher.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_extinguisher.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1391" selectionTopPixel="430"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_usart_comm.c" partName="bw_usart_comm.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_usart_comm.c" title="bw_usart_comm.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_usart_comm.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_usart_comm.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="19856" selectionTopPixel="8100"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_usart_comm.h" partName="bw_usart_comm.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_usart_comm.h" title="bw_usart_comm.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_usart_comm.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_usart_comm.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2975" selectionTopPixel="1664"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_UV-TRON.c" partName="bw_UV-TRON.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_UV-TRON.c" title="bw_UV-TRON.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_UV-TRON.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_UV-TRON.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="903" selectionTopPixel="151"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_tcs3200_receiver.c" partName="bw_tcs3200_receiver.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_tcs3200_receiver.c" title="bw_tcs3200_receiver.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_tcs3200_receiver.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_tcs3200_receiver.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="110" selectionOffset="429" selectionTopPixel="160"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_rcc.h" partName="stm32f4xx_rcc.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_lib/include/stm32f4xx_rcc.h" title="stm32f4xx_rcc.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_lib/include/stm32f4xx_rcc.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/include/stm32f4xx_rcc.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="12007" selectionTopPixel="4840"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_lcd.c" partName="bw_lcd.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_lcd.c" title="bw_lcd.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_lcd.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_lcd.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2362" selectionTopPixel="2170"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_i2c_lcd.c" partName="bw_i2c_lcd.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_i2c_lcd.c" title="bw_i2c_lcd.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_i2c_lcd.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_i2c_lcd.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8298" selectionTopPixel="6540"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_cmps11.c" partName="bw_cmps11.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_cmps11.c" title="bw_cmps11.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_cmps11.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_cmps11.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="44078" selectionTopPixel="31620"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_user_interface.c" partName="bw_user_interface.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_user_interface.c" title="bw_user_interface.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_user_interface.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_user_interface.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2670" selectionTopPixel="1690"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_user_interface.h" partName="bw_user_interface.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_user_interface.h" title="bw_user_interface.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_user_interface.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_user_interface.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="3172" selectionTopPixel="1660"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_dynamixel_ax_12a.c" partName="bw_dynamixel_ax_12a.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_dynamixel_ax_12a.c" title="bw_dynamixel_ax_12a.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_dynamixel_ax_12a.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_dynamixel_ax_12a.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3009" selectionTopPixel="800"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_usart.c" partName="stm32f4xx_usart.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_lib/source/stm32f4xx_usart.c" title="stm32f4xx_usart.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_lib/source/stm32f4xx_usart.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/source/stm32f4xx_usart.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="8339" selectionTopPixel="3480"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_dynamixel_xl_320.c" partName="bw_dynamixel_xl_320.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_dynamixel_xl_320.c" title="bw_dynamixel_xl_320.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_dynamixel_xl_320.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_dynamixel_xl_320.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="102"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="BW_LOG_2021.h" partName="BW_LOG_2021.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/logs/BW_LOG_2021.h" title="BW_LOG_2021.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/logs/BW_LOG_2021.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_LOG_2021.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="717"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_tcs3200_receiver.h" partName="bw_tcs3200_receiver.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_tcs3200_receiver.h" title="bw_tcs3200_receiver.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_tcs3200_receiver.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_tcs3200_receiver.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="580" selectionTopPixel="80"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f4xx.c" partName="startup_stm32f4xx.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_boot/startup/startup_stm32f4xx.c" title="startup_stm32f4xx.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_boot/startup/startup_stm32f4xx.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_boot/startup/startup_stm32f4xx.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3405" selectionTopPixel="1500"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_gripper_2023.c" partName="bw_gripper_2023.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Main Controller 2023/MAZE_Main Controller_(28-7-2022)/BW_Library/bw_gripper_2023.c" title="bw_gripper_2023.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Main Controller 2023/MAZE_Main Controller_(28-7-2022)/BW_Library/bw_gripper_2023.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_gripper_2023.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1793" selectionTopPixel="750"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_gripper_2023.h" partName="bw_gripper_2023.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Main Controller 2023/MAZE_Main Controller_(28-7-2022)/BW_Library/bw_gripper_2023.h" title="bw_gripper_2023.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Main Controller 2023/MAZE_Main Controller_(28-7-2022)/BW_Library/bw_gripper_2023.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_gripper_2023.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="375" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_tim.h" partName="stm32f4xx_tim.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/cmsis_lib/include/stm32f4xx_tim.h" title="stm32f4xx_tim.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/cmsis_lib/include/stm32f4xx_tim.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/include/stm32f4xx_tim.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="12069" selectionTopPixel="4500"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_rotary_switch.c" partName="bw_rotary_switch.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_rotary_switch.c" title="bw_rotary_switch.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_rotary_switch.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_rotary_switch.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3869" selectionTopPixel="2031"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="KRSI_stm32f4xx_dyna.c" partName="KRSI_stm32f4xx_dyna.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/KRSI_stm32f4xx_dyna.c" title="KRSI_stm32f4xx_dyna.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/KRSI_stm32f4xx_dyna.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/KRSI_stm32f4xx_dyna.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7606" selectionTopPixel="5040"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_cmps11.h" partName="bw_cmps11.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_cmps11.h" title="bw_cmps11.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_cmps11.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_cmps11.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6203" selectionTopPixel="4281"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="BW_I2C_EEPROM.c" partName="BW_I2C_EEPROM.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/BW_I2C_EEPROM.c" title="BW_I2C_EEPROM.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/BW_I2C_EEPROM.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/BW_I2C_EEPROM.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5301" selectionTopPixel="4550"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_macro_lib.h" partName="bw_macro_lib.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_macro_lib.h" title="bw_macro_lib.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_macro_lib.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_macro_lib.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_systick_delay.c" partName="bw_systick_delay.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_systick_delay.c" title="bw_systick_delay.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_systick_delay.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_systick_delay.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="510" selectionTopPixel="60"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" partName="main.h" title="main.h" tooltip="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Main Controller 2023\MAZE_Main Controller_(28-7-2022)\BW_Library\main.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/CooCox/CoIDE/workspace/%231%20Project%20Maze%202023/Main%20Controller%202023/MAZE_Main%20Controller_(28-7-2022)/BW_Library/main.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1884" selectionTopPixel="1530"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_gpio.c" partName="stm32f4xx_gpio.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/cmsis_lib/source/stm32f4xx_gpio.c" title="stm32f4xx_gpio.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/cmsis_lib/source/stm32f4xx_gpio.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/source/stm32f4xx_gpio.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="20220" selectionTopPixel="10340"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_dynamixel_ax_12a.h" partName="bw_dynamixel_ax_12a.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (16-11-2022)/Main Controller Maze/BW_Library/bw_dynamixel_ax_12a.h" title="bw_dynamixel_ax_12a.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (16-11-2022)/Main Controller Maze/BW_Library/bw_dynamixel_ax_12a.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_dynamixel_ax_12a.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="10547" selectionTopPixel="5260"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" partName="main.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/main.h" title="main.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/main.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/main.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1595" selectionTopPixel="1272"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_gpio.h" partName="stm32f4xx_gpio.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_lib/include/stm32f4xx_gpio.h" title="stm32f4xx_gpio.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_lib/include/stm32f4xx_gpio.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/include/stm32f4xx_gpio.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="3575" selectionTopPixel="1760"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_ping_receiver.h" partName="bw_ping_receiver.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_ping_receiver.h" title="bw_ping_receiver.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_ping_receiver.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_ping_receiver.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="1394" selectionTopPixel="538"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_usart.h" partName="stm32f4xx_usart.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_lib/include/stm32f4xx_usart.h" title="stm32f4xx_usart.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_lib/include/stm32f4xx_usart.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/include/stm32f4xx_usart.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="5208" selectionTopPixel="1880"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_dynamixel_hexapod_cmd.h" partName="bw_dynamixel_hexapod_cmd.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_dynamixel_hexapod_cmd.h" title="bw_dynamixel_hexapod_cmd.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_dynamixel_hexapod_cmd.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_dynamixel_hexapod_cmd.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="17730" selectionTopPixel="12360"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_adc.c" partName="stm32f4xx_adc.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/cmsis_lib/source/stm32f4xx_adc.c" title="stm32f4xx_adc.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/cmsis_lib/source/stm32f4xx_adc.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/source/stm32f4xx_adc.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="33418" selectionTopPixel="16360"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_adc.h" partName="stm32f4xx_adc.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/cmsis_lib/include/stm32f4xx_adc.h" title="stm32f4xx_adc.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/cmsis_lib/include/stm32f4xx_adc.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/include/stm32f4xx_adc.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4870" selectionTopPixel="358"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="misc.h" partName="misc.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_lib/include/misc.h" title="misc.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_lib/include/misc.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/include/misc.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="syscalls.c" partName="syscalls.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/syscalls/syscalls.c" title="syscalls.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/syscalls/syscalls.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/syscalls/syscalls.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="819"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_dynamixel_hexapod_cmd.h" partName="bw_dynamixel_hexapod_cmd.h" title="bw_dynamixel_hexapod_cmd.h" tooltip="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Main Controller 2023\MAZE_Main Controller_(28-7-2022)\BW_Library\bw_dynamixel_hexapod_cmd.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Main Controller 2023\MAZE_Main Controller_(28-7-2022)\BW_Library\bw_dynamixel_hexapod_cmd.h" project="BW_2.17_Main_Controller_Ver.1.0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="33" selectionOffset="19101" selectionTopPixel="12080"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_rotary_switch.h" partName="bw_rotary_switch.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/BW_Library/bw_rotary_switch.h" title="bw_rotary_switch.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/BW_Library/bw_rotary_switch.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_rotary_switch.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="635" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_dma.h" partName="stm32f4xx_dma.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/cmsis_lib/include/stm32f4xx_dma.h" title="stm32f4xx_dma.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/cmsis_lib/include/stm32f4xx_dma.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/include/stm32f4xx_dma.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_i2c_lcd.h" partName="bw_i2c_lcd.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_i2c_lcd.h" title="bw_i2c_lcd.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_i2c_lcd.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_i2c_lcd.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="411" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_dynamixel_hexapod_cmd.h" partName="bw_dynamixel_hexapod_cmd.h" title="bw_dynamixel_hexapod_cmd.h" tooltip="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Main Controller Maze\BW_Library\bw_dynamixel_hexapod_cmd.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Main Controller Maze\BW_Library\bw_dynamixel_hexapod_cmd.h" project="BW_2.17_Main_Controller_Ver.1.0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="14570" selectionTopPixel="10480"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mz_servo_pwm.c" partName="mz_servo_pwm.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/mz_servo_pwm.c" title="mz_servo_pwm.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/mz_servo_pwm.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/mz_servo_pwm.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="8654" selectionTopPixel="5720"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mz_servo_pwm.h" partName="mz_servo_pwm.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/mz_servo_pwm.h" title="mz_servo_pwm.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/mz_servo_pwm.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/mz_servo_pwm.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1428" selectionTopPixel="504"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_gripper_2021.h" partName="bw_gripper_2021.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/BW_Library/bw_gripper_2021.h" title="bw_gripper_2021.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze/BW_Library/bw_gripper_2021.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_gripper_2021.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_gripper_2021.c" partName="bw_gripper_2021.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_gripper_2021.c" title="bw_gripper_2021.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_gripper_2021.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_gripper_2021.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1788" selectionTopPixel="1730"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_sound_activation.c" partName="bw_sound_activation.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_sound_activation.c" title="bw_sound_activation.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_sound_activation.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_sound_activation.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="20"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_dynamixel_ax_12a.h" partName="bw_dynamixel_ax_12a.h" title="bw_dynamixel_ax_12a.h" tooltip="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Main Controller Maze (16-11-2022)\Main Controller Maze\BW_Library\bw_dynamixel_ax_12a.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Main Controller Maze (16-11-2022)\Main Controller Maze\BW_Library\bw_dynamixel_ax_12a.h" project="BW_2.17_Main_Controller_Ver.1.0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="10541" selectionTopPixel="5260"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_dynamixel_hexapod_cmd.h" partName="bw_dynamixel_hexapod_cmd.h" title="bw_dynamixel_hexapod_cmd.h" tooltip="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Main Controller Maze (16-11-2022)\Main Controller Maze\BW_Library\bw_dynamixel_hexapod_cmd.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Main Controller Maze (16-11-2022)\Main Controller Maze\BW_Library\bw_dynamixel_hexapod_cmd.h" project="BW_2.17_Main_Controller_Ver.1.0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="3" selectionOffset="8017" selectionTopPixel="5440"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="math.h" partName="math.h" title="math.h" tooltip="C:\Program Files (x86)\GNU Tools Arm Embedded\7 2018-q2-update\arm-none-eabi\include\math.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\Program Files (x86)\GNU Tools Arm Embedded\7 2018-q2-update\arm-none-eabi\include\math.h" project="BW_2.17_Main_Controller_Ver.1.0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="2824" selectionTopPixel="1860"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="misc.c" partName="misc.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (16-11-2022)/Main Controller Maze/cmsis_lib/source/misc.c" title="misc.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (16-11-2022)/Main Controller Maze/cmsis_lib/source/misc.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/source/misc.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="953"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="string.h" partName="string.h" title="string.h" tooltip="C:\Program Files (x86)\GNU Tools Arm Embedded\7 2018-q2-update\arm-none-eabi\include\string.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\Program Files (x86)\GNU Tools Arm Embedded\7 2018-q2-update\arm-none-eabi\include\string.h" project="BW_2.17_Main_Controller_Ver.1.0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="837" selectionTopPixel="991"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_rcc.c" partName="stm32f4xx_rcc.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_lib/source/stm32f4xx_rcc.c" title="stm32f4xx_rcc.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_lib/source/stm32f4xx_rcc.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/source/stm32f4xx_rcc.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="22" selectionOffset="51260" selectionTopPixel="23680"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" partName="stm32f4xx.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_boot/stm32f4xx.h" title="stm32f4xx.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_boot/stm32f4xx.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_boot/stm32f4xx.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3577" selectionTopPixel="18170"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_sound_activation.h" partName="bw_sound_activation.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_sound_activation.h" title="bw_sound_activation.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_sound_activation.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_sound_activation.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_lcd.h" partName="bw_lcd.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_lcd.h" title="bw_lcd.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_lcd.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_lcd.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1387"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_systick_delay.h" partName="bw_systick_delay.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_systick_delay.h" title="bw_systick_delay.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_systick_delay.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_systick_delay.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stdio.h" partName="stdio.h" title="stdio.h" tooltip="C:\Program Files (x86)\GNU Tools Arm Embedded\7 2018-q2-update\arm-none-eabi\include\stdio.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\Program Files (x86)\GNU Tools Arm Embedded\7 2018-q2-update\arm-none-eabi\include\stdio.h" project="BW_2.17_Main_Controller_Ver.1.0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="7408" selectionTopPixel="4560"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="core_cm4_simd.h" partName="core_cm4_simd.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis/core_cm4_simd.h" title="core_cm4_simd.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis/core_cm4_simd.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis/core_cm4_simd.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="core_cm4.h" partName="core_cm4.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis/core_cm4.h" title="core_cm4.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis/core_cm4.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis/core_cm4.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="75891" selectionTopPixel="25480"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_i2c.c" partName="stm32f4xx_i2c.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_lib/source/stm32f4xx_i2c.c" title="stm32f4xx_i2c.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/cmsis_lib/source/stm32f4xx_i2c.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/source/stm32f4xx_i2c.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="25565" selectionTopPixel="13840"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_2021_algorithm.h" partName="bw_2021_algorithm.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_2021_algorithm.h" title="bw_2021_algorithm.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_2021_algorithm.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_2021_algorithm.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2333" selectionTopPixel="1376"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_dynamixel_hexapod_cmd.c" partName="bw_dynamixel_hexapod_cmd.c" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_dynamixel_hexapod_cmd.c" title="bw_dynamixel_hexapod_cmd.c" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_dynamixel_hexapod_cmd.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_dynamixel_hexapod_cmd.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="42476" selectionTopPixel="20861"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_dynamixel_hexapod_cmd.h" partName="bw_dynamixel_hexapod_cmd.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_dynamixel_hexapod_cmd.h" title="bw_dynamixel_hexapod_cmd.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_dynamixel_hexapod_cmd.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_dynamixel_hexapod_cmd.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="14192" selectionTopPixel="10140"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bw_dynamixel_hexapod_cmd.h" partName="bw_dynamixel_hexapod_cmd.h" path="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_dynamixel_hexapod_cmd.h" title="bw_dynamixel_hexapod_cmd.h" tooltip="C:/CooCox/CoIDE/workspace/#1 Project Maze 2023/Hexapod/Main Controller Maze (24-02-2023)/Main Controller Maze (16-11-2022) Updated/Main Controller Maze/BW_Library/bw_dynamixel_hexapod_cmd.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_dynamixel_hexapod_cmd.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="16414" selectionTopPixel="11960"/>
+</editor>
+</editors>
+<views>
+<view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="54">
+<expanded>
+<element path="/BW_2.17_Main_Controller_Ver.1.0"/>
+<element path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library"/>
+<element path="/BW_2.17_Main_Controller_Ver.1.0/cmsis"/>
+<element path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_boot"/>
+<element path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib"/>
+<element path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/include"/>
+<element path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/source"/>
+<element path="/BW_2.17_Main_Controller_Ver.1.0/syscalls"/>
+</expanded>
+<selection>
+<element path="/BW_2.17_Main_Controller_Ver.1.0/main.c"/>
+</selection>
+</viewState>
+</view>
+<view id="org.coocox.component.ui.ComponentView" partName="Components">
+<viewState/>
+</view>
+<view id="org.eclipse.cdt.ui.callHierarchy" partName="Call Hierarchy">
+<viewState showFilesInLabels="false" variableFilter="false"/>
+</view>
+<view id="org.eclipse.cdt.ui.typeHierarchy" partName="Type Hierarchy">
+<viewState filterFields="false" filterNonPublic="false" filterStatic="false" showFilesInLabels="false" showInheritedMembers="false" splitterWeight1="350" splitterWeight2="650" viewOrientation="0"/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.coocox.component.ui.Help" partName="Help">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
+<alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
+<alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.coocox.userspace.actionSet"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.ShowDisassemblyAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showExpressionsAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showDebugAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showConsoleAction"/>
+<hide_menu_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
+<hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<view id="org.coocox.component.ui.ComponentView"/>
+<view id="org.coocox.builder.ui.views.ProjectView"/>
+<view id="org.coocox.component.ui.Help"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.cdt.ui.typeHierarchy"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.cdt.ui.callHierarchy"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@122874">
+<folder activePageID="org.coocox.component.ui.ComponentView" appearance="2" expanded="2">
+<page content="org.coocox.component.ui.ComponentView" label="Components"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.ui.internal.ViewStack@122874">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.coocox.builder.ui.exampleView" ratio="0.13672079" ratioLeft="261" ratioRight="1648" relationship="2" relative="org.eclipse.ui.internal.ViewStack@122874"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@8cb040" ratio="0.72644377" ratioLeft="1195" ratioRight="450" relationship="2" relative="org.coocox.builder.ui.exampleView">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.coocox.component.ui.Help" label="Help"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.cdt.ui.typeHierarchy" label="Type Hierarchy"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
+<page content="org.coocox.coassistant.view.CoAssistantView" label="LabelNotFound"/>
+<page content="org.coocox.builder.ui.MoreExampleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.4499205" ratioLeft="283" ratioRight="346" relationship="4" relative="org.coocox.builder.ui.exampleView"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1c9e5f4" ratio="0.7596472" ratioLeft="689" ratioRight="218" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.cdt.ui.callHierarchy" label="Call Hierarchy"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1e03d1" ratio="0.14495799" ratioLeft="138" ratioRight="814" relationship="4" relative="org.eclipse.ui.internal.ViewStack@122874">
+<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
+<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_2021_algorithm.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BW_2.17_Main_Controller_Ver.1.0/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_global_var.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_global_var.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/bw_dynamixel_hexapod_cmd.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BW_2.17_Main_Controller_Ver.1.0/BW_Library/mz_servo_pwm.c"/>
+</editors>
+<item historyLabel="bw_global_var.c" index="2">
+<position info="not_deleted" x="45235" y="0"/>
+</item>
+<item historyLabel="bw_global_var.h" index="3">
+<position info="not_deleted" x="5069" y="36"/>
+</item>
+<item historyLabel="bw_global_var.c" index="2">
+<position info="not_deleted" x="45146" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="85339" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="86030" y="0"/>
+</item>
+<item historyLabel="bw_dynamixel_hexapod_cmd.c" index="4">
+<position info="not_deleted" x="347164" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="87079" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="12124" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="39638" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="12124" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="4542" y="0"/>
+</item>
+<item historyLabel="mz_servo_pwm.c" index="5">
+<position info="not_deleted" x="8766" y="13"/>
+</item>
+<item historyLabel="mz_servo_pwm.c" index="5">
+<position info="not_deleted" x="8654" y="15"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="4542" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="39638" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="4542" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="12125" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="38459" y="11"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="39638" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="83621" y="12"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="85494" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="86034" y="0"/>
+</item>
+<item historyLabel="bw_dynamixel_hexapod_cmd.c" index="4">
+<position info="not_deleted" x="347164" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="86034" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="87204" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="86031" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="87317" y="0"/>
+</item>
+<item historyLabel="bw_global_var.c" index="2">
+<position info="not_deleted" x="44754" y="0"/>
+</item>
+<item historyLabel="bw_global_var.h" index="3">
+<position info="not_deleted" x="4444" y="0"/>
+</item>
+<item historyLabel="bw_global_var.c" index="2">
+<position info="not_deleted" x="44761" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="86035" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="87873" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="99463" y="12"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="94529" y="9"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="98208" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="98837" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="99093" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="98839" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="98836" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="99090" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="98199" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="83621" y="12"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="87706" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="87411" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="94529" y="9"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="99268" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="99246" y="0"/>
+</item>
+<item historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="94529" y="9"/>
+</item>
+<item active="true" historyLabel="bw_2021_algorithm.c" index="0">
+<position info="not_deleted" x="83621" y="12"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+</window>
+<mruList>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bw_dynamixel_hexapod_cmd.h" tooltip="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Main Controller Maze (24-02-2023)\Main Controller Maze (16-11-2022) Updated\Main Controller Maze\BW_Library\bw_dynamixel_hexapod_cmd.h">
+<persistable path="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Main Controller Maze (24-02-2023)\Main Controller Maze (16-11-2022) Updated\Main Controller Maze\BW_Library\bw_dynamixel_hexapod_cmd.h" project="BW_2.17_Main_Controller_Ver.1.0"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bw_ping_receiver.h" tooltip="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Main Controller Maze (24-02-2023)\Main Controller Maze (16-11-2022) Updated\Main Controller Maze\BW_Library\bw_ping_receiver.h">
+<persistable path="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Main Controller Maze (24-02-2023)\Main Controller Maze (16-11-2022) Updated\Main Controller Maze\BW_Library\bw_ping_receiver.h" project="BW_2.17_Main_Controller_Ver.1.0"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bw2017_algorithm.h" tooltip="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Main Controller Maze (24-02-2023)\Main Controller Maze (16-11-2022) Updated\Main Controller Maze\BW_Library\bw2017_algorithm.h">
+<persistable path="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Main Controller Maze (24-02-2023)\Main Controller Maze (16-11-2022) Updated\Main Controller Maze\BW_Library\bw2017_algorithm.h" project="BW_2.17_Main_Controller_Ver.1.0"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="adc_comp.h" tooltip="BW_Tracer_2019_Ver 1.0/stm_lib/inc/adc_comp.h">
+<persistable path="/BW_Tracer_2019_Ver 1.0/stm_lib/inc/adc_comp.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_dma.h" tooltip="BW_Tracer_2019_Ver 1.0/stm_lib/inc/stm32f10x_dma.h">
+<persistable path="/BW_Tracer_2019_Ver 1.0/stm_lib/inc/stm32f10x_dma.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="adc_comp.c" tooltip="BW_Tracer_2019_Ver 1.0/stm_lib/BW_C/adc_comp.c">
+<persistable path="/BW_Tracer_2019_Ver 1.0/stm_lib/BW_C/adc_comp.c"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="adc_comp.h" tooltip="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Tracer Gripper Maze Ver2\Tracer Gripper Maze\Tracer Maze\BW_Tracer_2019_Ver 1.4 - 04 Februari 2021\stm_lib\inc\adc_comp.h">
+<persistable path="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Tracer Gripper Maze Ver2\Tracer Gripper Maze\Tracer Maze\BW_Tracer_2019_Ver 1.4 - 04 Februari 2021\stm_lib\inc\adc_comp.h" project="BW_Tracer_2019_Ver 1.0"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_usart.h" tooltip="Rangefinder_SYSTEM/stm_lib/inc/stm32f10x_usart.h">
+<persistable path="/Rangefinder_SYSTEM/stm_lib/inc/stm32f10x_usart.h"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bw_2021_algorithm.h" tooltip="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Main Controller Maze (24-02-2023)\Main Controller Maze (16-11-2022) Updated\Main Controller Maze\BW_Library\bw_2021_algorithm.h">
+<persistable path="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\Main Controller Maze (24-02-2023)\Main Controller Maze (16-11-2022) Updated\Main Controller Maze\BW_Library\bw_2021_algorithm.h" project="BW_2.17_Main_Controller_Ver.1.0"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="yume_ping_receiver.c" tooltip="YUME_Main_Controller_Ver_2.0/YUME_Library/yume_ping_receiver.c">
+<persistable path="/YUME_Main_Controller_Ver_2.0/YUME_Library/yume_ping_receiver.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_adc.c" tooltip="Rangefinder_SYSTEM/stm_lib/src/stm32f10x_adc.c">
+<persistable path="/Rangefinder_SYSTEM/stm_lib/src/stm32f10x_adc.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_adc.h" tooltip="Rangefinder_SYSTEM/stm_lib/inc/stm32f10x_adc.h">
+<persistable path="/Rangefinder_SYSTEM/stm_lib/inc/stm32f10x_adc.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_i2c.c" tooltip="BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/source/stm32f4xx_i2c.c">
+<persistable path="/BW_2.17_Main_Controller_Ver.1.0/cmsis_lib/source/stm32f4xx_i2c.c"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f1xx_hal_i2c.h" tooltip="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\STM32F1_LCD_I2C\Tracer Gripper Maze\Tracer Maze\BW_Tracer_2019_Ver 1.4 - 04 Februari 2021\stm_lib\hal\inc\stm32f1xx_hal_i2c.h">
+<persistable path="C:\CooCox\CoIDE\workspace\#1 Project Maze 2023\Hexapod\STM32F1_LCD_I2C\Tracer Gripper Maze\Tracer Maze\BW_Tracer_2019_Ver 1.4 - 04 Februari 2021\stm_lib\hal\inc\stm32f1xx_hal_i2c.h" project="BW_Tracer_2019_Ver 1.0"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f1xx_hal_dma.c" tooltip="BW_Tracer_2019_Ver 1.0/stm_lib/HAL/stm32f1xx_hal_dma.c">
+<persistable path="/BW_Tracer_2019_Ver 1.0/stm_lib/HAL/stm32f1xx_hal_dma.c"/>
+</file>
+</mruList>
+</workbench>

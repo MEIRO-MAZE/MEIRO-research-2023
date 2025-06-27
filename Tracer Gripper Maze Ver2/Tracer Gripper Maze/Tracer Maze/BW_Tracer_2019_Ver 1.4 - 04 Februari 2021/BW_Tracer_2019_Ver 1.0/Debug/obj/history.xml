@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Tracer Gripper Maze Ver2\Tracer Gripper Maze\Tracer Maze\BW_Tracer_2019_Ver 1.4 - 04 Februari 2021\stm_lib -I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Tracer Gripper Maze Ver2\Tracer Gripper Maze\Tracer Maze -I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Tracer Gripper Maze Ver2\Tracer Gripper Maze\Tracer Maze\BW_Tracer_2019_Ver 1.4 - 04 Februari 2021\cmsis_boot -I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Tracer Gripper Maze Ver2\Tracer Gripper Maze\Tracer Maze\BW_Tracer_2019_Ver 1.4 - 04 Februari 2021\cmsis -I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Tracer Gripper Maze Ver2\Tracer Gripper Maze\Tracer Maze\BW_Tracer_2019_Ver 1.4 - 04 Februari 2021\stm_lib\inc -I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Tracer Gripper Maze Ver2\Tracer Gripper Maze\Tracer Maze\BW_Tracer_2019_Ver 1.4 - 04 Februari 2021">
+      <target file="stm32f10x_iwdg.o" lastModified="1883a10d658">
+         <source file="..\..\..\stm_lib\src\stm32f10x_iwdg.c" lastModified="16f023fe0e0"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1883a10cfad">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="16c8e06d8f8"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="1883a10d5d2">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="16ee02c8a7f"/>
+      </target>
+      <target file="misc.o" lastModified="1883a10d509">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="16c8e074347"/>
+      </target>
+      <target file="i2c_vl530x.o" lastModified="1883a1f6990">
+         <source file="..\..\..\stm_lib\src\i2c_vl530x.c" lastModified="18757de91f6"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="1883a10cc54">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="16c8e06cc77"/>
+      </target>
+      <target file="MZ_VL53L0X.o" lastModified="1883a1e1d5e">
+         <source file="..\..\..\stm_lib\src\MZ_VL53L0X.c" lastModified="187623e7a28"/>
+      </target>
+      <target file="Tracer_2019.o" lastModified="1883a1e1c6a">
+         <source file="..\..\..\stm_lib\src\Tracer_2019.c" lastModified="187675866e1"/>
+      </target>
+      <target file="adc_comp.o" lastModified="1883a1e1e71">
+         <source file="..\..\..\stm_lib\src\adc_comp.c" lastModified="1883a107fa3"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1883a10cce2">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="16c8e06eb3f"/>
+      </target>
+      <target file="delay.o" lastModified="1883a1f681c">
+         <source file="..\..\..\stm_lib\src\delay.c" lastModified="1875a82c745"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1883a10caa9">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1875a88a061"/>
+      </target>
+      <target file="syscalls.o" lastModified="1883a10d235">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16c8e1fb9a0"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="1883a10ca17">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="16f8e82d6ef"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="1883a10d073">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="16c8e070de4"/>
+      </target>
+      <target file="TCS_Tracer2019.o" lastModified="1883a1f68dd">
+         <source file="..\..\..\stm_lib\src\TCS_Tracer2019.c" lastModified="187710da38b"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="1883a10d49a">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="18839fc71aa"/>
+      </target>
+      <target file="main.o" lastModified="1884e1e64d9">
+         <source file="..\..\..\main.c" lastModified="1884e1e62a4"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="1883a10d10c">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="16c8e071620"/>
+      </target>
+   </processor>
+</history>

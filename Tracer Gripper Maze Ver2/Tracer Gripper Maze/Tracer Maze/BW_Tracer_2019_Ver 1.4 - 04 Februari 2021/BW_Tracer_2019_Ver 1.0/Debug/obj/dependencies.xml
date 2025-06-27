@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Tracer Gripper Maze Ver2\Tracer Gripper Maze\Tracer Maze\BW_Tracer_2019_Ver 1.4 - 04 Februari 2021\stm_lib /I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Tracer Gripper Maze Ver2\Tracer Gripper Maze\Tracer Maze /I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Tracer Gripper Maze Ver2\Tracer Gripper Maze\Tracer Maze\BW_Tracer_2019_Ver 1.4 - 04 Februari 2021\cmsis_boot /I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Tracer Gripper Maze Ver2\Tracer Gripper Maze\Tracer Maze\BW_Tracer_2019_Ver 1.4 - 04 Februari 2021\cmsis /I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Tracer Gripper Maze Ver2\Tracer Gripper Maze\Tracer Maze\BW_Tracer_2019_Ver 1.4 - 04 Februari 2021\stm_lib\inc /I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Tracer Gripper Maze Ver2\Tracer Gripper Maze\Tracer Maze\BW_Tracer_2019_Ver 1.4 - 04 Februari 2021">
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="16ee02c8a7f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="16c8e06ba03">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\i2c_vl530x.h" lastModified="18761e93660">
+         <include file="..\..\..\stm_lib\inc\Tracer_2019.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\Tracer_2019.c" lastModified="187675866e1">
+         <include file="..\..\..\stm_lib\inc\Tracer_2019.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="16c8e06d8ee">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_iwdg.c" lastModified="16f023fe0e0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="16c8e06eb3f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="16c8e070ddf">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="16c8e06ccc3">
+      </source>
+      <source file="..\..\..\stm_lib\inc\delay.h" lastModified="18757cdd92e">
+         <include file="..\..\..\stm_lib\inc\Tracer_2019.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\MZ_VL53L0X.h" lastModified="18757beb1ee">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\i2c_vl530x.c" lastModified="18757de91f6">
+         <include file="..\..\..\stm_lib\inc\i2c_vl530x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\TCS_Tracer2019.h" lastModified="187710f8c85">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1875a88a061">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="18839fc71a4">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="16c8e06cc7e">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="16c8e074347">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\Tracer_2019.h" lastModified="1883a1e1cef">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\TCS_Tracer2019.h"/>
+         <include file="..\..\..\stm_lib\inc\adc_comp.h"/>
+         <include file="..\..\..\stm_lib\inc\delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16c8e06bdf1">
+      </source>
+      <source file="..\..\..\stm_lib\src\MZ_VL53L0X.c" lastModified="187623e7a28">
+         <include file="..\..\..\stm_lib\inc\MZ_VL53L0X.h"/>
+         <include file="..\..\..\stm_lib\inc\i2c_vl530x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\adc_comp.h" lastModified="1883a16d007">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\delay.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="16c8e07161a">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="16c8e06cc77">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="16f8e82d6ef">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\delay.c" lastModified="1875a82c745">
+         <include file="..\..\..\stm_lib\inc\Tracer_2019.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="16c8e071620">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="16ee02c8a77">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\TCS_Tracer2019.c" lastModified="187710da38b">
+         <include file="..\..\..\stm_lib\inc\TCS_Tracer2019.h"/>
+         <include file="..\..\..\stm_lib\inc\Tracer_2019.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\adc_comp.c" lastModified="1883a107fa3">
+         <include file="..\..\..\stm_lib\inc\adc_comp.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="16c8e074346">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="16c8e1fc940">
+      </source>
+      <source file="..\..\..\main.c" lastModified="1884e1e668c">
+         <include file="..\..\..\stm_lib\inc\Tracer_2019.h"/>
+         <include file="..\..\..\stm_lib\inc\i2c_vl530x.h"/>
+         <include file="..\..\..\stm_lib\inc\MZ_VL53L0X.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16c8e06bdf6">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="16c8e06d8f8">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="16c8e06d065">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="16c8e070de4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="18839fc71aa">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h" lastModified="16f023fe0df">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="16c8e06eb39">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="16f8e82d6e6">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+</dependencies>

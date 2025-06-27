@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=BW_Tracer_2019_Ver 1.0.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\BW_Tracer_2019_Ver 1.0 -TC:\CooCox\CoIDE\configuration\ProgramData\BW_Tracer_2019_Ver 1.0/link.ld -g">
+      <target file="BW_Tracer_2019_Ver 1.0.elf" lastModified="1884e1e6722">
+         <source file="..\obj\delay.o" lastModified="1883a1f681c"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="1883a10ca17"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1883a10caa9"/>
+         <source file="..\obj\TCS_Tracer2019.o" lastModified="1883a1f68dd"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1883a10cc54"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1883a10cce2"/>
+         <source file="..\obj\i2c_vl530x.o" lastModified="1883a1f6990"/>
+         <source file="..\obj\main.o" lastModified="1884e1e64d9"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1883a10cfad"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="1883a10d073"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1883a10d10c"/>
+         <source file="..\obj\Tracer_2019.o" lastModified="1883a1e1c6a"/>
+         <source file="..\obj\syscalls.o" lastModified="1883a10d235"/>
+         <source file="..\obj\MZ_VL53L0X.o" lastModified="1883a1e1d5e"/>
+         <source file="..\obj\adc_comp.o" lastModified="1883a1e1e71"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="1883a10d49a"/>
+         <source file="..\obj\misc.o" lastModified="1883a10d509"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="1883a10d5d2"/>
+         <source file="..\obj\stm32f10x_iwdg.o" lastModified="1883a10d658"/>
+      </target>
+   </processor>
+</history>

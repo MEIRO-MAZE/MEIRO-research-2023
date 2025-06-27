@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Rangefinder Maze\Rangefinder_SYSTEM_V1.3-04 Februari 2021\Rangefinder_SYSTEM_V1.2\cmsis /I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Rangefinder Maze\Rangefinder_SYSTEM_V1.3-04 Februari 2021\Rangefinder_SYSTEM_V1.2\Rangefinder_SYSLIB /I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Rangefinder Maze\Rangefinder_SYSTEM_V1.3-04 Februari 2021\Rangefinder_SYSTEM_V1.2 /I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Rangefinder Maze\Rangefinder_SYSTEM_V1.3-04 Februari 2021\Rangefinder_SYSTEM_V1.2\cmsis_boot /I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Rangefinder Maze\Rangefinder_SYSTEM_V1.3-04 Februari 2021\Rangefinder_SYSTEM_V1.2\stm_lib\inc /I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Rangefinder Maze\Rangefinder_SYSTEM_V1.3-04 Februari 2021\Rangefinder_SYSTEM_V1.2\stm_lib /I..\..\..\workspace\#1 Project Maze 2023\Hexapod\Rangefinder Maze\Rangefinder_SYSTEM_V1.3-04 Februari 2021">
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="162eec8c10e">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="1629f9e4c23">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSLIB\i2c_Pixy.h" lastModified="1654b55dd41">
+         <include file="..\..\..\Rangefinder_SYSLIB\main.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="1629f9e4776">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1629f9e5e33">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSLIB\i2c_Pixy.c" lastModified="1654b580741">
+         <include file="..\..\..\Rangefinder_SYSLIB\i2c_Pixy.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="1629f9e7f21">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="1629f9e4824">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="162f876f478">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="176ad4e6d73">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="1629f9e4809">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="1629f9ea240">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="1629f9e501c">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="1629f9e8e44">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="1629f9e47ee">
+      </source>
+      <source file="..\..\..\Rangefinder_SYSLIB\Init_Ping)).h" lastModified="1834218c948">
+         <include file="..\..\..\Rangefinder_SYSLIB\main.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSLIB\adc_comp.h" lastModified="176ad57d93d">
+         <include file="..\..\..\Rangefinder_SYSLIB\main.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="1629f9e6f66">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSLIB\Init_Ping)).c" lastModified="1877b8ad8ae">
+         <include file="..\..\..\Rangefinder_SYSLIB\main.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="1629f9e8ea2">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="162eec8c106">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSLIB\adc_comp.c" lastModified="187e220dcf1">
+         <include file="..\..\..\Rangefinder_SYSLIB\adc_comp.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="1629f9ea23d">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="1629f9e4b0d">
+      </source>
+      <source file="..\..\..\main.c" lastModified="1881b3f6a17">
+         <include file="..\..\..\Rangefinder_SYSLIB\main.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="1629f9e502c">
+      </source>
+      <source file="..\..\..\Rangefinder_SYSLIB\i2c_VL53L0X.h" lastModified="1654b669ade">
+         <include file="..\..\..\Rangefinder_SYSLIB\main.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSLIB\i2c_VL53L0X.c" lastModified="1654b6eb309">
+         <include file="..\..\..\Rangefinder_SYSLIB\i2c_VL53L0X.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1629f9e47d8">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="162f8733c9e">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="1629f9e7f34">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSLIB\delay.h" lastModified="1654b430aac">
+         <include file="..\..\..\Rangefinder_SYSLIB\main.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="176ad4e6d73">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSLIB\delay.c" lastModified="16294addded">
+         <include file="..\..\..\Rangefinder_SYSLIB\main.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="1629f9e5e2a">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="1629f9e6f52">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Rangefinder_SYSLIB\main.h" lastModified="176ad5ba8af">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\Rangefinder_SYSLIB\Init_Ping)).h"/>
+         <include file="..\..\..\Rangefinder_SYSLIB\delay.h"/>
+         <include file="..\..\..\Rangefinder_SYSLIB\adc_comp.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\Rangefinder_SYSLIB\i2c_VL53L0X.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+      </source>
+   </includePath>
+</dependencies>
