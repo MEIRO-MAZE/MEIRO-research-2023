@@ -166,4 +166,4 @@ All raw logs (CSV) are stored in `Main Controller Maze/logs/`, `Rangefinder Maze
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
-| 1.0 | 2023-06-14 | Initial release for KRSRI Region 2023 | Alun |
+| 1.0 | 2023-06-14 | Final release for KRSRI Region 2023 | Alun |
