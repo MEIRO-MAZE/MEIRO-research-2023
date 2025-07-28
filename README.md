@@ -21,6 +21,12 @@ Search-and-Rescue (SAR) operations in disaster areas are often constrained by:
 - **Poor visibility & communication** after earthquakes or building collapses.  
 - **Time-critical missions** where every minute reduces victim survival rates.
 
+Post-earthquake environments are characterised by:
+
+- **Non-flat terrain:** cracked floors, scattered debris, loose gravel (simulated by 3–5 cm white coral & 15 – 17 mm marbles).  
+- **Slopes & stairs:** inclines up to 50 cm vertical in 90 cm horizontal.  
+- **Victim localisation：** 5 orange-coloured 3-D printed victims (≈ 33 g each) randomly placed, no dummy in 2023.  
+
 This research was conducted to design an **autonomous hexapod robot** capable of:
 
 1. Traversing complex indoor environments without human intervention.  
