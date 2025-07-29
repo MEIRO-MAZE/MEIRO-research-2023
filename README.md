@@ -7,7 +7,7 @@
 ## 📘 About the Research
 
 - **Team / Division:** MEIRO  
-- **Platform:** STM32F407VGT6  
+- **Platform:** STM32  
 - **Timeline:** 09 Aug 2022 – 24 Oct 2023  
 - **Status:** ✅ Completed  
 
